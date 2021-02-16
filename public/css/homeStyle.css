@@ -1,0 +1,173 @@
+body{
+    width: 810px;
+    margin: auto;
+    font-family: cursive;
+}
+.navigation_section{
+    position: relative;
+}
+.shop_name{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 35px;
+}
+#shop{
+    color: #009e0f;
+}
+.service{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#join{
+    border: 2px solid black;
+    box-shadow: 2px 3px;
+}
+.feature_section{
+    position: absolute;
+    top: 190px;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+}
+.slogan{
+    font-weight: bold;
+    font-size: 35px;
+}
+.motto{
+    font-size: 14px;
+    color: #cccccc;
+}
+.search_bar{
+    font-family: cursive;
+    width: 45%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 5%;
+}
+.promotion_section{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 130px;
+    margin: 25px 0px;
+}
+.box{
+    display: flex;
+    width: 240px;
+    position: relative;
+    border: 2px solid;
+}
+.coupon{
+    background-color: #ea9999;
+}
+.delivery{
+    background-color: #f6b26b;
+}
+.voucher{
+    background-color: #c27ba0;
+}
+.promotion_text{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.promotion_title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.promotion_slogan{
+    font-size: 10px;
+    color: white;
+}
+.promotion_button{
+    font-family: cursive;
+    font-size: 12px;
+    border: 2px black solid;
+    box-shadow: 3px 3px;
+    margin-top: 25px;
+}
+.promotion_icon{
+    position: absolute;
+    top: 30px;
+    margin-left: 170px;
+    margin-right: 5px;
+}
+.product_section{
+    display: flex;
+}
+.product_category_section{
+    width: 310px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.category_icon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.category_name{
+    display: inline;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.category_icon_selected{
+    vertical-align: middle;
+}
+.category_name_selected{
+    display: inline;
+    vertical-align: middle;
+}
+.product_feature_section{
+    display: flex;
+}
+.product_box{
+    border: 3px solid black;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+.product_description{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.product_discount{
+    position: absolute;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-top: 10px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+}
+.original_price{
+    color: red;
+    font-size: 13px;
+}
+.price{
+    color: lightgreen;
+    font-size: 13px;
+}
+.cart_button{
+    position: absolute;
+    margin-left: 100px;
+    border: 2px solid black;
+    width: 60px;
+    box-shadow: 3px 3px;
+}
+.clothes_image{
+    transition: 0.5s all ease-in-out;
+}
+.product_box:hover .clothes_image{
+    transform: scale(1.3);
+}

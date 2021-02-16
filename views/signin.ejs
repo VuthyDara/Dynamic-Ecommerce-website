@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AwesomeShop | Shop your dresses</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        input[type=text], input[type=password] {
+            width: 400px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 400px;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h3>Welcome to Awesome Shop</h3>
+            <h5>Enter your information below to continue</h5>
+        </div>
+        <div>
+            <form>
+                <div class="container">
+                    <label for="uname"><b>Email Address</b></label>
+                    <input type="text" placeholder="Enter Email Address" name="email" required>
+        
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <span>Don't have an account?</span>
+        <a href="signup">Sign Up</a>
+    </center>
+</body>
+</html>

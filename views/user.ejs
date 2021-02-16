@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AwesomeShop | Shop your dresses</title>
+    <link rel="stylesheet" href="css/homeStyle.css">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        .panel {
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation_section">
+        <div>
+            <span>Awesome Shop | Admin Panel</span>
+        </div>
+        <div class="service">
+            <a href="/"><span>Home</span></a>
+            <span> | </span>
+            <span>Log out</span>
+        </div>
+    </div>
+    <br>
+    <div>
+        <span class="panel">User Panel</span>
+        </div>
+    </div>
+    <br>
+    <div class="product_section">
+        <div class="product_category_section">
+            <div class="category_name">
+                <a href="products">Products</a>
+                <br>
+            </div>
+            <div class="category_name">
+                <a href="user">User</a>
+                <br>
+            </div>
+            <div class="category_name">
+                <a href="purchaseOrder">Purchase Order</a>
+                <br>
+            </div>
+            <div class="category_name">
+                <a href="history">History</a>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Joined Date</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td>A</td>
+              <td>2nd, Jan 2021</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>B</td>
+                <td>20th, Feb 2021</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>C</td>
+                <td>16th, Jan 2021</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>D</td>
+                <td>20th, Jan 2021</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+          </table>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
